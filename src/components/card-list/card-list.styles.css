@@ -1,7 +1,14 @@
 .card-list {
-  width: 85vw;
+  width: 90vw;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+@media only screen and (min-width: 768px) {
+  .card-list {
+    width: 80vw;
+  }
 }

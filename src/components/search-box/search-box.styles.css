@@ -1,9 +1,17 @@
 .search {
   -webkit-appearance: none;
   border: none;
+  border-radius: 5px;
   outline: none;
   padding: 10px;
-  width: 150px;
+  width: 85vw;
+  margin: 0 auto;
   line-height: 30px;
   margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .search {
+    width: 70%;
+  }
 }
